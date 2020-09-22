@@ -8,6 +8,7 @@ https://github.com/samergain/samers-portfolio
 https://samergain.github.io/samers-portfolio/
 
 # Instructions 
+![Home Page](Screen Shot 2020-09-22 at 7.04.26 PM.png).
 
 # Installation Instructions 
 N/A
