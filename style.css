@@ -6,10 +6,9 @@ body, html {
     background-color: burlywood;
 }
 
-img {
+#selfie {
     width: 200px;
     height: 200px;
-
 }
 
 footer {
