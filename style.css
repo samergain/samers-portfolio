@@ -9,7 +9,10 @@ body, html {
 #selfie {
     width: 200px;
     height: 200px;
+    padding: 10px;
 }
+
+
 
 footer {
     position: fixed;
@@ -24,15 +27,25 @@ footer a {
     padding-right: 1.5em;  
 }
 
-/* @media only screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) {
     img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 20px;
+        display: flex;
+        margin: 0 auto;
+        width: fit-content;
+        
+        float: none !important;
+        justify-content: center;
     }
-    h3 {
+    h1 {
        text-align: center;
+    }
+    .newClass {
+        
+        display: flex;
+        flex-direction: column;
+    }
+    #textBox {
+        
     }
 }
 
@@ -40,4 +53,4 @@ footer a {
     img {
         float: left;
     }
-} */
+}
