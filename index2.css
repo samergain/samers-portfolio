@@ -10,6 +10,16 @@ a {
     margin-left: 20px;
     font-style: unset;
 }
+
+#selfie {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    display: inline;
+}
+.about {
+    margin: 20px;
+}
 .main {
     background-color: teal;
     width: 100%;
