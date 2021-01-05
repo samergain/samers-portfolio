@@ -4,6 +4,22 @@ html, body {
     box-sizing: border-box;
 }
 
+a {
+    color: rgb(15, 4, 4);
+    size: 20px;
+    margin-left: 20px;
+    font-style: unset;
+}
+
+#selfie {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    display: inline;
+}
+.about {
+    margin: 20px;
+}
 .main {
     background-color: teal;
     width: 100%;
@@ -16,10 +32,14 @@ html, body {
     height: 100px;
 }
 
-footer {
-    
-    width: 100%;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     height: 50px;
-    background: rgb(105, 80, 35);
+    width: 100%;
+    color: white;
+    text-align: center;
+    background: rgb(229, 206, 163);
     border-radius: 100px 0px 100px 0px ;
 }
