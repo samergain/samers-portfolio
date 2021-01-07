@@ -2,6 +2,7 @@ body, html {
     background: linear-gradient(to left, rgb(202, 175, 175), rgb(143, 150, 204));
     
 }
+
 .navbar {
     background-color: burlywood;
 }
@@ -11,8 +12,6 @@ body, html {
     height: 200px;
     padding: 10px;
 }
-
-
 
 footer {
     position: fixed;
