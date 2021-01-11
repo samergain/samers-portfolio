@@ -4,9 +4,11 @@ html, body {
     box-sizing: border-box;
     background: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
     text-align: center;
-    
 }
 
+body {
+    height: 100%;
+}
 a {
     color: rgb(15, 4, 4);
     size: 20px;
@@ -28,15 +30,6 @@ a {
     margin: 20px;   
 }
 
-#textBox {
-    max-width: 50%;
-
-}
-.main {
-    width: 100%;
-    height: 800px;
-}
-
 .nav {
     background-color: burlywood;
     width: 100%;
@@ -50,3 +43,57 @@ footer {
     height: 48px;
     background-color: burlywood;
 }
+
+#main {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+#first-col, #third-col {
+    width: 25%;
+    height: 100%;
+   
+}
+
+#middle-col {
+    width: 50%;
+    height: 100%;
+    background-color: cornflowerblue;
+}
+
+/* ball bounce */
+#ball {
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 50%;
+    background: linear-gradient(
+      35deg,
+      #4abdbd,
+      #d23131
+    );
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes bounce{
+    0% {
+      top: 0px;
+    }
+    50% {
+      top: 249px;
+      width: 130px;
+      height: 70px;
+    }
+    100% {
+      top: 0px;
+    }
+  }
+
+  /* end of ball bounce */
