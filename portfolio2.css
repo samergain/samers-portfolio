@@ -1,0 +1,46 @@
+body {
+    background: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.category {
+    text-align: center;
+}
+
+.card {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+img {
+    width: 90%;
+    height: 300px;
+    border-radius: 8px;
+}
+.card-body {
+    background-color: rgba(98, 98, 98, 0.606);
+    border:rgb(47, 44, 44) dotted;
+    width: 90%;
+    margin: auto;
+    color: rgb(229, 214, 184);
+}
+button {
+    width: 70px;
+    height: 40px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+}
+.title {
+    font-size: 30px;
+    font-weight: 800;
+    font-stretch: semi-expanded;
+    margin: 10px;
+}
+a {
+    text-decoration: none;
+    size: 20px;
+}
