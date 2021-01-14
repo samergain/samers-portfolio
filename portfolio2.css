@@ -5,10 +5,13 @@ body {
 .container {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .category {
     text-align: center;
+    font-family: Nunito;
+    background-color: indianred;
 }
 
 .card {
